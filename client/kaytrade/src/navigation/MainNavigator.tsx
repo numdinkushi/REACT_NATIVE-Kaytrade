@@ -13,7 +13,8 @@ const MainNavigator = () => {
           screenOptions={() => ({
             headerShown: false,
           })}
-          initialRouteName="SplashScreen"
+          // initialRouteName="SplashScreen"
+          initialRouteName="LoginScreen"
         >
           {mergedStacks.map((item, index) => {
             return (
